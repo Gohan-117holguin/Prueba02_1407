@@ -136,8 +136,8 @@ body{
 
 .contenido_feed{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: column; */
+    justify-content: space-around;
 }
 
 .informacion_noticias{
@@ -175,13 +175,24 @@ body{
     grid-area: text2;
 }
 
-.contenido_twitter{
-    display: flex;
-    justify-content: flex-end;
+.imagen_twitter{
+
+}
+
+hr{
+    margin: 0 8%;
 }
 
 footer{
     margin: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+footer p{
+    color: #8395a2;
 }
 
 /*
